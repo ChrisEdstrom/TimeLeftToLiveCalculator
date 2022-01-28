@@ -1,0 +1,12 @@
+# 🚨 Don't change the code below 👇
+age = input("What is your current age?\n")
+left = input("How long do you expect to live?\n")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+days = (int(left)-int(age))*365
+weeks = (int(left)-int(age))*52
+months = (int(left)-int(age))*12
+years = int(left)-int(age)
+
+print("You have about",days,"days of existence remaining,",weeks,"weeks before you croak, and",years,"years left to live")
